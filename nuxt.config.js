@@ -23,11 +23,14 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/assets/css/main.css',
+    '@/assets/css/font.css'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/veevalidate'
   ],
   /*
   ** Nuxt.js dev-modules
